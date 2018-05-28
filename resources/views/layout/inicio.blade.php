@@ -26,7 +26,7 @@
           <a class="nav-link" href="#contacto"  data-click="scroll-to-target">CONTACTO</a>
         </li>
         <li class="nav-item ml-2 py-1">
-          <a href="#"  data-toggle="modal" data-target="#registros" class="btn btn-outline-primary btn-block ">REGISTRARME</a>
+          <a href="#" onclick="window.location='{{ url("register") }}'"  data-toggle="modal" data-target="#registros" class="btn btn-outline-primary btn-block ">REGISTRARME</a>
         </li>
 
         <li class="nav-item ml-2 py-1">
