@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body{
+width: 100%;
+  height: auto;
+  background-color: #606060 !important;
+  border: 2px solid #3c454f;
+  padding: 0px;
+
+}
+
+a {
+  text-decoration: none !important;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display:inline-flex;
+}
+#logo {
+     height: 50%;
+     width: 50%;
+}
+
+
+.bg-dark{
+    background-color: #3c454f!important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    margin: .2rem 0;
+     color: #fffefd;
+    font-weight: normal;
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link:hover {
+      text-decoration:underline;
+      color: #0056b3;
+
+
+}
+
+.btn-outline-primary {
+    color: #fffefd;
+  background-color: none;
+    background-image: none;
+border-color: #f8f9fa;
+    font-weight:normal;
+
+
+}
+.navbar-dark .navbar-toggler {
+
+    border-color: #f8f9fa;
+    font-size: 1.6rem;
+}
+.btn-outline-primary:hover {
+
+    background-color: #0056b3;
+    border-color:#48b098;
+    border-color: #f8f9fa;
+}
+.btn-outline-primary:focus {
+
+    background-color: #0056b3;
+    border-color:#48b098;
+    box-shadow: 0 0 0 0.2rem #dc354500;
+}
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+.navbar-expand-lg .navbar-nav {
+     font-family:andada-bold;
+
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-weight: normal;
+    font-family: andada-bold;
+}
+
+p{
+    max-width: 100%;
+    height: auto;
+    color:  #fff;
+}
+
+.imagen{
+  float: left;
+  margin: 0 0 10px 10px;
+
+}
+.inicio{
+  padding-top: 18%;
+  text-align: center;
+  font-weight: 1rem;
+  color:  #ffffff;
+  font-size: 1.4em;
+  letter-spacing: .5px;
+}
+.momentos{
+   text-align: center;
+  font-weight: 1rem;
+  font-size: 2.8rem;
+  color:  #ffffff;
+
+}
+.row p{
+  margin: -1rem 0;
+
+}
+h3 p{
+  text-align: center;
+  font-weight: 1rem;
+  font-size: 1.5rem;
+  color:  #ffffff;
+}
+#nosotros{
+	font-size: 1.2rem;
+	font-family: andada-bold;
+	font-weight: normal;
+	color:#f6beb7;
+	padding-top: 7rem;
+
+
+}
+
+#obj{
+
+	font-size:3rem;
+	font-family: andada-bold;
+	font-weight: normal;
+	color:#ffffff;
+
+}
+footer{
+	background-color: #3c454f;
+  font-size: 16px;
+    padding: 20px 0;
+
+}
+ footer ul {
+        margin-bottom: 0;
+    }
+
+    footer a:hover {
+        color: #860b0b;
+        text-decoration: none;
+    }
+.mar-top-80 {
+    margin-top: 80px;
+}
+.contacto{
+  padding: 2.4rem;
+}
+.redes{
+  position: relative;
+  padding-top:  200px;
+  font-size: 1rem;
+}
+#images{
+	padding-top: 4rem;
+}
+
+.modal-header{
+	background-color: #3c454f;
+
+}
+
+.modal-title{
+	font-family: Verdana;
+	font-weight: bold;
+	color: #ffffff;
+	font-size: 1.5rem;
+
+}
+strong{
+	color: #0056b3;
+}
+
+.row{
+
+  padding-top: 6rem;
+}
+
+.Terminos{
+      width: 100%;
+      max-width: 500px;
+      padding: 40px;
+      margin: auto;
+      background: #ededed;
+      box-shadow: 0px 0px 3px grey;
+      border-radius: 10px;
+    color: #0056b3;}
+    .contenedor{
+      width: 100%;
+      color: #0056b3;
+      padding: 10px;}
+      h4 p{
+        text-align: justify;
+        color:#6E6E6E;
+        font-size: 1.1rem;
+      }
