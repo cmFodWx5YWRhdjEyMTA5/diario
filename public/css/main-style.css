@@ -1,0 +1,85 @@
+body{
+    background-color: #606060 !important;
+    padding: 0px;
+}
+
+.bg-dark{
+    background-color: #3c454f!important;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    margin: .2rem 0;
+     color: #fffefd;
+    font-weight: normal;
+    /* font-family: andada-bold; */
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+      /* text-decoration:underline; */
+      color: #0056b3;
+
+
+}
+
+/**Imagenes**/
+
+.imgPerfil {
+  width:80%;
+  max-width:640px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.btn-portada {
+  position: relative;
+	bottom: 0;
+	left: 15px;
+}
+
+.card {
+  margin-top: 10px !important;
+}
+
+.card-header {
+  color: #fff !important;
+  background-color: #1C1C1C !important;
+}
+/** contenedor de botones de inicio y configuracion***/
+.cont-1 {
+  margin-top: 10px !important;
+}
+
+.cont-2 {
+  margin-bottom: 10px !important;
+}
+
+.btn {
+  margin-bottom: 2px !important;
+}
+
+
+/*** upload image ***/
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
