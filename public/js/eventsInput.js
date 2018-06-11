@@ -24,8 +24,8 @@ $(function() {
     $('.image-preview').popover({
         trigger:'manual',
         html:true,
-        title: "<strong>Preview</strong>"+$(closebtn)[0].outerHTML,
-        content: "There's no image",
+        title: "<strong>Vista Previa</strong>"+$(closebtn)[0].outerHTML,
+        content: "No existe imagen",
         placement:'bottom'
     });
     // Clear event
